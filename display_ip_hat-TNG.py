@@ -7,7 +7,6 @@ sense = SenseHat()
 scroll_speed = 0.1
 color = (0,255,0)
 
-import socket
 def get_ip():
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     try:
